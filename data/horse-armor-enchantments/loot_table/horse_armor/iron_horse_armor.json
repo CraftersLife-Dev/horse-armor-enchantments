@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor",
+          "weight": 1,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantable": {
+                  "value": 1
+                },
+                "minecraft:max_damage": 165,
+                "damage": 0,
+                "minecraft:equippable": {
+                  "slot": "body",
+                  "equip_sound": "minecraft:entity.horse.armor",
+                  "asset_id": "minecraft:iron",
+                  "allowed_entities": "minecraft:horse",
+                  "damage_on_hurt": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

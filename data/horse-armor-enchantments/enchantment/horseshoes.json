@@ -1,0 +1,47 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "text": "蹄鉄"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.05,
+          "per_level_above_first": 0.05
+        },
+        "attribute": "minecraft:movement_speed",
+        "id": "horse-armor-enchantments:enchantment.horseshoes",
+        "operation": "add_value"
+      }
+    ],
+    "minecraft:location_changed": [
+      {
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": 0.01
+        },
+        "effect": {
+          "type": "minecraft:change_item_damage",
+          "amount": 1
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "body"
+  ],
+  "supported_items": "#minecraft:enchantable/horse_armor",
+  "weight": 1,
+  "exclusive_set": "#minecraft:exclusive_set/horse_armor"
+}
