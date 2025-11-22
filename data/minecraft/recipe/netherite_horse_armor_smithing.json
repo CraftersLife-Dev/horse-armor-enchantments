@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "#minecraft:netherite_tool_materials",
+  "base": "minecraft:diamond_horse_armor",
+  "result": {
+    "id": "minecraft:netherite_horse_armor",
+    "components": {
+      "minecraft:enchantable": {
+        "value": 1
+      },
+      "minecraft:max_damage": 592,
+      "damage": 0,
+      "minecraft:equippable": {
+        "slot": "body",
+        "equip_sound": "minecraft:entity.horse.armor",
+        "asset_id": "minecraft:netherite",
+        "allowed_entities": "minecraft:horse",
+        "damage_on_hurt": true
+      }
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}
